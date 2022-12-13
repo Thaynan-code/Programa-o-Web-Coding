@@ -1,0 +1,101 @@
+/* 
+ESSA CLASSE NÃO SERVE DE NADA,
+APENAS PARA VOCÊS VEREM OS HEXAS
+DAS CORES DO LAYOUT 
+*/
+.cores{
+    color: #4A56F9; /*submit*/
+    color: #BE123C; /*nota*/
+    color: #1F2937; 
+    color: #F1F5F9;
+    color: #64748B;
+    color: #3A5479
+}
+
+/*
+################### 
+################### 
+SEU CÓDIGO 
+DAQUI PARA BAIXO 
+##################
+##################
+*/
+
+*{
+    margin: auto;
+}
+
+header{
+    background-color: #F1F5F9;
+    display: flex;
+    height: 115px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.user{
+    display: flex;
+    margin: auto;
+}
+
+.container-main{
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+
+.container-main li{
+    background-color: white;
+    color: black;
+    height: 30px;
+    margin-top: 10px;
+    width: 365px;
+   padding: 20px;
+   display: flex;
+ 
+}
+
+
+.m37020794-blue{
+    color: #4A56F9;
+    font-size: 30px;
+}
+
+.m37020794-red{
+    color: red;
+    font-size: 30px;
+}
+
+input[type="text"]{
+    background-color: #3A5479;
+    border: 0;
+    color: #64748B;
+    height: 45px;
+    width: 300px;
+   font-size: 18px;
+
+    
+ 
+}
+
+input[type="submit"]{
+    background-color: #4A56F9;
+    color: #F1F5F9;
+    border: 0;
+    height: 45px;
+    width: 99px;
+    font-size: 18px;
+}
+
+.m-37020794-container-footer{
+    color: #3A5479;
+    padding: 40px;
+    text-align: center;
+    margin: 40px;
+}
